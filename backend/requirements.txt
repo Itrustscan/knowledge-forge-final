@@ -1,0 +1,22 @@
+# Core FastAPI și server
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+
+# Dependențe pentru procesarea documentelor
+python-dotenv==1.0.0
+pydantic==2.4.2
+
+# Pentru AI și embeddings (opțional)
+sentence-transformers==2.2.2
+chromadb==0.4.15
+torch==2.1.0
+numpy==1.24.3
+
+# Pentru procesarea documentelor
+pdfplumber==0.9.0
+python-docx==0.8.11
+openpyxl==3.1.2
+beautifulsoup4==4.12.2
+
+# Utilities
+tqdm==4.66.1

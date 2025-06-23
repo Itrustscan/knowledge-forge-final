@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.env
+
+# Node.js
+node_modules/
+.next/
+out/
+*.tsbuildinfo
+
+# Tauri
+src-tauri/target/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Database
+vector_db/
+corpus.jsonl
+
+# IDE
+.vscode/
+.idea/
